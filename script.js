@@ -13,7 +13,7 @@ function getComputerChoice(){
 }
 
 function getHumanChoice(){
-    let Humanchoice = prompt("Enter your choice Dawg: ");
+    let Humanchoice = prompt("Enter your choice (rock) (paper) (scissors): ");
     Humanchoice=Humanchoice.toLowerCase();
     if(Humanchoice==="rock"){
         return "rock";
