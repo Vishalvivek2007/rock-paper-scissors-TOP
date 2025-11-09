@@ -8,8 +8,9 @@ function getComputerChoice(){
         return "paper";
     }
     else{
-        return "scissors";
+        return "Scissors";
     }
+    
 }
 
 function getHumanChoice(){
