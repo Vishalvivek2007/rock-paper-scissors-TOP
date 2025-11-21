@@ -1,11 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Pixelify+Sans:wght@400..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+
 </head>
+
 <body>
+    <div class="Header">
+        <div class="Middle-Header">
+            <p><span class="yellow">R</span>ock &nbsp;<span class="yellow">P</span>APER &nbsp;<span class="yellow">S</span>CISSORS</p>
+        </div>
+    </div>
+
+    
+    <div class="body">
+        <div>
+            <div class="main-content">
+                <div>
+                    <button onclick="playgame('rock')">
+                        <img src="imgs/rock.png" alt="This is rock button">
+                    </button>
+                    <p>Rock</p>
+                </div>
+                <div>
+                    <button onclick="playgame('paper')">
+                        <img src="imgs/paper.png" alt="This is a paper button">
+                    </button>
+                    <p>Paper</p>
+                </div>
+                <div>
+                    <button onclick="playgame('scissors')">
+                        <img src ="imgs/scissors.png" alt="This is a scissors button">
+                    </button>
+                    <p>Scissors</p>
+                </div>
+            </div>
+            <div class="textbox">
+                <p class="scorecard">Welcome to Rock Paper Scissors game</p>
+                <p class="present-round">Play your First move</p>
+            </div>
+        </div>
+    </div>
+
+    <footer class="Footer">
+            <div class="made-by-box">
+                <p>Made With ❤️ by <a href="https://github.com/Vishalvivek2007" target="_blank">Vishal Vivek</a></p>
+            </div>
+            <div class="git-icon">
+                <img src="imgs/github.png" alt="This is a git logo icon">
+            </div>
+    </footer>
+
     <script src="script.js"></script>
 </body>
+
 </html>
